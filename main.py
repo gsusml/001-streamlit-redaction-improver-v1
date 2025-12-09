@@ -112,7 +112,9 @@ if source_code_input:
         source_code=source_code_input
     )
 
-    response = llm.invoke(prompt_filled)
-    converted_code = response.content
+    with st.spinner("Convirtiendo código, por favor espera..."):
+        response = llm.invoke(prompt_filled)
+        converted_code = response.content
 
+    st.success("Conversión completada.")
     st.code(converted_code, language=pygments_lang)
