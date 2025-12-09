@@ -23,7 +23,7 @@ SOURCE_CODE:
 {source_code}
 \"\"\"
 
-YOUR OUTPUT ({target_language}):
+YOUR OUTPUT ({target_language}) with comments in SPANISH:
 """
 
 prompt = PromptTemplate(
