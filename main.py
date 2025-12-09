@@ -48,7 +48,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown("Convierte código de un lenguaje de programación en otro.")
 with col2:
-    st.write("Contact with [AI Accelera](https://aiaccelera.com)")
+    st.write("Contact with [G5U5](https://gsusml84)")
 
 
 st.markdown("## Introduce tu API KEY de GROQ")
